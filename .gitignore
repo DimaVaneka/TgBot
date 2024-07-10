@@ -1,14 +1,38 @@
-# Игнорировать все файлы временных данных
+# compiled output
+/dist
+/node_modules
+
+# Logs
+logs
 *.log
-*.tmp
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
-# Игнорировать директории build и temp
-build/
-temp/
+# OS
+.DS_Store
+.vscode
+.vs
+.idea
 
-# Игнорировать файлы конфигурации IDE
-.idea/
-.vscode/
+# Tests
+/coverage
+/.nyc_output
 
-# Игнорировать зависимости (например, для Node.js)
-node_modules/
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json    
